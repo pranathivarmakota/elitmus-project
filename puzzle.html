@@ -1,0 +1,270 @@
+<html>
+  <head>
+    <style>
+        body {
+          background-color: rgb(198, 241, 206);
+        }
+        label{
+            padding-top: 20px;
+            margin-top: 20px;
+            padding-right:20px;
+            font-size: 25px;
+        }
+        </style>
+  </head>
+  <body>
+<center>
+    <form method='post'>
+    <h1 style:font-size: 100px;><center> Welcome to Treasure Island.</center></h1>
+    <img src="img17.jpg" alt="img" height="185" width="400">
+    <h1><center>Your mission is to find the treasure.</center></h1>
+    <h2><center>You're on a cross road. Where do you want to go?</center></h2>
+    <center><img src="img1.jpg" alt="Image not found" width="300" height="200"></center>
+	<input type="radio" id="radio1" name="radio" value="1" onchange="displayClue1()">
+    <label for="radio1">Left</label>
+	<input type="radio" id="radio2" name="radio" value="2" onchange="displayClue1()">
+    <label for="radio2">Right</label>
+
+	<div id="Clue1" style="display: none;">
+        <h2> There is an island in the middle of the lake. Choose "wait" to wait for a boat. Choose "swim" to swim across:</h2>
+        <img src="img2.jpg" alt="Image not found" width="300" height="200"><br>
+        <input type="radio" id="radio3" name="radio" value="1" onchange="displayClue2()">
+        <label for="radio3">Wait</label>
+        <input type="radio" id="radio4" name="radio" value="2" onchange="displayClue2()">
+        <label for="radio4">Swim</label>
+	</div>
+
+    <div id="Clue14" style="display: none;">
+        <h2> You have attacked by an alligator.Which tools do you prefer to defend the alligator? </h2>
+        <img src="img12.jpg" alt="Image not found" width="300" height="200"><br>
+        <input type="radio" id="radio15" name="radio" value="1" onchange="displayClue8()">
+        <label for="radio15">Hand Gun</label>
+        <input type="radio" id="radio16" name="radio" value="2" onchange="displayClue8()">
+        <label for="radio16">Paint and brush</label>
+	</div>
+
+    <div id="Clue15" style="display: none;">
+        <h2>Hurray!!Great Move!!!You have found your key for the treasure! </h2>
+        <img src="img13.jpg" alt="Image not found" width="300" height="200"><br>    
+	</div>
+
+    <div id="Clue16" style="display: none;">
+        <h2>Do you wanna collect the treasure ?</h2>
+        <input type="radio" id="radio17" name="radio" value="1" onchange="displayClue9()">
+        <label for="radio17">Yes</label>
+        <input type="radio" id="radio18" name="radio" value="2" onchange="displayClue9()">
+        <label for="radio18">No</label>   
+	</div>
+
+    <div id="Clue17" style="display: none;">
+        <h2>Congratulations!! You have won the game!! Thanks For playing!! </h2>
+        <img src="img8.jpg" alt="Image not found" width="300" height="200"><br>    
+	</div>
+
+    <div id="Clue18" style="display: none;">
+        <h2>Sorry!! You have lost the treasure!!</h2>
+        <img src="img14.jpg" alt="Image not found" width="300" height="200"><br>    
+	</div>
+
+    <div id="Clue19" style="display: none;">
+        <h2>Sorry!! You have cannot defend the alligator with the chosen tools!!<br> Thanks for playing!! Better luck next time!!</h2>
+        <img src="img18.jpg" alt="Image not found" width="300" height="200"><br>    
+	</div>
+
+
+
+    <div id="Clue3" style="display: none;">
+        <h2>You have found a bridge. what do you want to do? </h2>
+        <img src="img3.jpg" alt="Image not found" width="300" height="200"><br>
+        <input type="radio" id="radio8" name="radio" value="1" onchange="displayClue4()">
+        <label for="radio8">Cross</label>
+        <input type="radio" id="radio9" name="radio" value="2" onchange="displayClue4()">
+        <label for="radio9">Quit</label>
+	</div>
+
+    <div id="Clue4" style="display: none;">
+        <h2>You\'ve got into a resort. if you want to stay choose "checkin" . </h2>
+        <img src="img4.jpg" alt="Image not found" width="300" height="200"><br>
+        <input type="radio" id="radio10" name="radio" value="1" onchange="displayClue6()">
+        <label for="radio10">checkin</label>
+        <input type="radio" id="radio11" name="radio" value="2" onchange="displayClue6()">
+        <label for="radio11">stayout</label>
+	</div>
+
+    <div id="Clue5" style="display: none;">
+        <h2>You\'ve ended up the game!! Thanks For playing </h2>
+        <img src="img5.jpg" alt="Image not found" width="300" height="200"><br>    
+	</div>
+
+	<div id="Clue2" style="display: none;">
+        <h2>You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one green. Which colour do you choose?</h2>
+        <img src="img6.jpg" alt="Image not found" width="300" height="200"><br>
+        <input type="radio" id="radio5" name="radio" value="1" onchange="displayClue5()">
+        <label for="radio5">red</label>
+        <input type="radio" id="radio6" name="radio" value="2" onchange="displayClue5()"> 
+        <label for="radio6">yellow</label>
+        <input type="radio" id="radio7" name="radio" value="3" onchange="displayClue5()">
+        <label for="radio7">green</label>
+	</div>
+
+    
+
+    <div id="Clue6" style="display: none;">
+        <h1>It's a room full of fire. Game Over. </h1>
+        <img src="img7.jpg" alt="Image not found" width="300" height="200"><br>   
+	</div>
+
+    
+    <div id="Clue7" style="display: none;">
+        <h1>You found the treasure! You Win! </h1> 
+        <img src="img8.jpg" alt="Image not found" width="300" height="200"><br>   
+	</div>
+
+    
+    <div id="Clue8" style="display: none;">
+        <h1>You enter a room of beasts. Game Over. </h1> 
+        <img src="img9.jpg" alt="Image not found" width="300" height="200"><br>   
+	</div>
+
+    <div id="Clue9" style="display: none;">
+        <h1>You chose a door that doesn't exist. Game Over </h1> 
+        <img src="img5.jpg" alt="Image not found" width="300" height="200"><br>  
+	</div>
+
+    <div id="Clue10" style="display: none;">
+        <h2>There are three room avialable .501,502 & 503. Which one do you choose</h2>
+        <img src="img10.jpg" alt="Image not found" width="300" height="200"><br>   
+        <input type="radio" id="radio12" name="radio" value="1" onchange="displayClue7()">
+        <label for="radio12">501</label>
+        <input type="radio" id="radio13" name="radio" value="2" onchange="displayClue7()">
+        <label for="radio13">502</label>
+        <input type="radio" id="radio14" name="radio" value="3" onchange="displayClue7()">
+        <label for="radio14">503</label>
+	</div>
+
+    <div id="Clue11" style="display: none;">
+        <h1>It's a room for tiger. Game Over. </h1>
+        <img src="img11.jpg" alt="Image not found" width="300" height="200"><br>
+
+	</div>
+
+    <div id="Clue12" style="display: none;">
+        <h1>You found the treasure! You Win !! Congratulations!!</h1> 
+        <img src="img8.jpg" alt="Image not found" width="300" height="200"><br>   
+	</div>
+
+    <div id="Clue13" style="display: none;">
+        <h1>You enter a room of beasts. Game Over. </h1> 
+        <img src="img9.jpg" alt="Image not found" width="300" height="200"><br>   
+	</div>
+
+
+    
+	<div id="success" style="display: none;">
+  <h1>You have successfully completed the game!</h1>
+  <img src="img8.jpg" alt="Image not found" width="300" height="200"><br>
+</center>
+</div>
+
+	<script>
+		function displayClue1() {
+			var radio1 = document.getElementById("radio1");
+			var radio2 = document.getElementById("radio2");
+			var textboxContainer = document.getElementById("Clue1");
+			if (radio1.checked) {
+				Clue1.style.display = "block";
+                Clue3.style.display="none";
+			} else if (radio2.checked) {
+				Clue1.style.display = "none";
+                Clue3.style.display="block";
+            }
+		}
+        function displayClue4() {
+			var radio1 = document.getElementById("radio8");
+			var radio2 = document.getElementById("radio9");
+			var textboxContainer = document.getElementById("Clue3");
+			if (radio1.checked) {
+				Clue4.style.display = "block";
+                Clue5.style.display="none";
+			} else if (radio2.checked) {
+				Clue4.style.display = "none";
+                Clue5.style.display="block";
+            }
+		}
+
+        function displayClue6() {
+			var radio1 = document.getElementById("radio10");
+			var radio2 = document.getElementById("radio11");
+			if (radio1.checked) {
+				Clue10.style.display="block";
+			} else if (radio2.checked) {
+				Clue9.style.display = "block";
+            }
+		}
+
+        function displayClue7() {
+			var radio1 = document.getElementById("radio12");
+			var radio2 = document.getElementById("radio13");
+            var radio3 = document.getElementById("radio14");
+			if (radio1.checked) {
+				Clue11.style.display="block";
+			} else if (radio2.checked) {
+				Clue12.style.display = "block";
+            }
+            else if (radio3.checked) {
+				Clue13.style.display = "block";
+            }
+		}
+
+        function displayClue8() {
+			var radio1 = document.getElementById("radio15");
+			var radio2 = document.getElementById("radio16");
+			if (radio1.checked) {
+				Clue15.style.display="block";
+                Clue16.style.display="block";
+			} else if (radio2.checked) {
+				Clue19.style.display = "block";
+            }
+		}
+
+        function displayClue9() {
+			var radio1 = document.getElementById("radio17");
+			var radio2 = document.getElementById("radio18");
+			if (radio1.checked) {
+				Clue17.style.display="block";
+			} else if (radio2.checked) {
+				Clue18.style.display = "block";
+            }
+		}
+
+        
+    function displayClue2() {
+			var radio1 = document.getElementById("radio3");
+			var radio2 = document.getElementById("radio4");
+			var textboxContainer = document.getElementById("Clue2");
+			if (radio1.checked) {
+				Clue2.style.display = "block";
+			} else if (radio2.checked) {
+				Clue14.style.display = "block";
+			}
+		}
+        function displayClue5() {
+			var radio1 = document.getElementById("radio5");
+			var radio2 = document.getElementById("radio6");
+            var radio3 = document.getElementById("radio7");
+			if (radio1.checked) {
+				Clue6.style.display = "block";
+			} else if (radio2.checked) {
+				Clue7.style.display = "block";
+            }
+            else if(radio3.checked){
+                Clue8.display.checked="block";
+            }
+		}
+	
+
+		
+	</script>
+</form>
+  </body>
+</html>
