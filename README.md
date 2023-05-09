@@ -54,7 +54,7 @@ To get started with the project, you can clone the repository to your local mach
 
 7.Click on the "Go" button to import the SQL file and create the necessary tables for the login credentials.
 
-
+![Screenshot (23)](https://user-images.githubusercontent.com/113531544/236978502-a0653cad-d2c7-4e5a-ae67-b429ddb1dd1f.png)
 8.Copy the project files to the htdocs folder in your XAMPP installation directory (usually located in C:\xampp\htdocs).
 
 
