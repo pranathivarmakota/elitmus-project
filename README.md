@@ -96,6 +96,7 @@ To use the project, you can follow these steps:
 
 If the login is successful, you will be redirected to the puzzle.html file.
 3.Play the Uncovering the Secrets: The Ultimate Treasure Hunt Adventure and have fun!
+![image](https://user-images.githubusercontent.com/113531544/236979859-1d726cbb-d1dd-4233-a21f-946e3b248d73.png)
 
 
 
