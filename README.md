@@ -5,7 +5,7 @@
  The treasure hunt an adventerous game appears to be an interactive adventure that takes place in a virtual world. Players are tasked with solving clues and puzzles that will ultimately lead them to the location of the treasure.The treasure hunt game promises to be a thrilling and immersive experience.
 
 # Description:
-This project contains two HTML files, "index.php = (https://github.com/pranathivarmakota/elitmus-project/blob/main/puzzle.html") and "puzzle.html =("https://github.com/pranathivarmakota/elitmus-project/blob/main/puzzle.html). The index.html file contains a login form with two input fields for the username and password. The form submits the data to a backend, which inserts the data into a MySQL database. The login form also has an onsubmit function that redirects the user to the puzzle.php file.
+This project contains two HTML files, "index.php = (https://github.com/pranathivarmakota/elitmus-project/blob/main/index.php") and "puzzle.html =("https://github.com/pranathivarmakota/elitmus-project/blob/main/puzzle.html). The index.html file contains a login form with two input fields for the username and password. The form submits the data to a backend, which inserts the data into a MySQL database. The login form also has an onsubmit function that redirects the user to the puzzle.php file.
 
 The puzzle.php file contains a simple puzzle game("Uncovering the Secrets: The Ultimate Treasure Hunt Adventure"). that the user can play after logging in. The game is created using JavaScript and has different levels of difficulty.
 
@@ -97,9 +97,7 @@ To use the project, you can follow these steps:
 If the login is successful, you will be redirected to the puzzle.html file.
 3.Play the Uncovering the Secrets: The Ultimate Treasure Hunt Adventure and have fun!
 ![image](https://user-images.githubusercontent.com/113531544/236979859-1d726cbb-d1dd-4233-a21f-946e3b248d73.png)
-
 [WhatsApp Image 2023-05-09 at 02 17 11](https://user-images.githubusercontent.com/113531544/236980037-ee45215b-34b6-45d6-a2dc-055bfb454b1c.jpg)
-
 
 
 
