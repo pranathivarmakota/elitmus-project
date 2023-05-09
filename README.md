@@ -92,6 +92,7 @@ To use the project, you can follow these steps:
 
 
 2.Enter your username and password and click on the "Login" button.
+ ![WhatsApp Image 2023-05-09 at 02 19 49](https://user-images.githubusercontent.com/113531544/236979073-97fc169f-e937-41e3-bee4-d7d88a42eeac.jpg)
 
 If the login is successful, you will be redirected to the puzzle.html file.
 3.Play the Uncovering the Secrets: The Ultimate Treasure Hunt Adventure and have fun!
