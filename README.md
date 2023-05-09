@@ -49,8 +49,12 @@ To get started with the project, you can clone the repository to your local mach
  ![Screenshot (21)](https://user-images.githubusercontent.com/113531544/236978168-64d612ab-78d5-4ef1-97bb-66bcf2e3489d.png)
 
 5.Select the newly created database from the list on the left-hand side and click on the "Import" tab.
+
 6.Click on the "Choose File" button and select the database.sql file located in the project's database folder.
+
 7.Click on the "Go" button to import the SQL file and create the necessary tables for the login credentials.
+
+
 8.Copy the project files to the htdocs folder in your XAMPP installation directory (usually located in C:\xampp\htdocs).
 
 
