@@ -88,8 +88,11 @@ The project should now be up and running, and you can use the login credentials 
 To use the project, you can follow these steps:
 
 1.Open the index.php file in your browser to access the login form.
+![WhatsApp Image 2023-05-09 at 02 06 22](https://user-images.githubusercontent.com/113531544/236978726-38743670-3154-44c5-b95e-a5d3564da572.jpg)
+
 
 2.Enter your username and password and click on the "Login" button.
+
 If the login is successful, you will be redirected to the puzzle.html file.
 3.Play the Uncovering the Secrets: The Ultimate Treasure Hunt Adventure and have fun!
 
